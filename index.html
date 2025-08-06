@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akmaral Aryntai - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Akma</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Akma</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.jpg" alt="Akmaral Aryntai profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Akmaral</h1>
+        <p class="section__text__p2">Mobile & Web Developer | CEO of Qolda</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/aryntay/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/arynttai'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Mobile & Web Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Software Engineering Graduate, Astana IT University<br />Lecturer at IT Step Academy</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm Akmaral Aryntai, a Software Engineering graduate from Astana IT University with over 3 years of professional experience. I specialize in mobile development (Android & iOS) and modern web technologies such as React, HTML, CSS, JavaScript, and Vision OS. I’m the founder and CEO of Qolda, a startup focused on supporting junior IT specialists by connecting them with mentors and internship opportunities. In addition, I am a dedicated lecturer at IT Step Academy, where I teach and mentor aspiring iOS developers. My journey includes participation in hackathons, accelerators like Y Combinator Quick Start XVI, and various freelance projects, all fueled by my passion for innovative technology and education.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Mobile & Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java (Android)</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Swift (iOS)</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS/JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React (Web)</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vision OS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Education & Programs</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Samsung Innovation Campus</h3>
+                  <p>Android Development</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tech Orda & IT Step Academy</h3>
+                  <p>iOS Development</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Apple Training Center</h3>
+                  <p>Swift & Vision OS</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Code Girl Summer 2023</h3>
+                  <p>Programming Camp</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Beeline Bootcamp 2024</h3>
+                  <p>Project Management</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Qolda.pdf.png"
+                alt="Qolda Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Qolda App</h2>
+            <p class="project-description">
+              Qolda is a mobile application I developed from scratch, serving as both frontend and backend developer. It connects junior IT specialists with mentors, offering guidance and a platform to find internship opportunities. Currently in development, I’m conducting customer discovery and enhancing features, with plans to scale it with a team in the future.
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ac.jpg"
+                alt="Attendance Control Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Attendance Control App</h2>
+            <p class="project-description">
+              Attendance Control is a smart mobile app designed to automate student attendance tracking. Developed from scratch by our team, it has been successfully tested at an educational institution and is ready for release. A simple, reliable, and scalable solution for colleges and universities.
+            </p>
+          </div>
+          <a href="https://policetrain.vercel.app/" class="project-link">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/police.jpg"
+                  alt="PoliceTrain Project"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">PoliceTrain</h2>
+              <p class="project-description">
+                PoliceTrain is a web application designed to assist police training programs. Built with React and hosted on Vercel, it provides an interactive platform for managing training schedules, resources, and progress tracking, showcasing my skills in web development for clients.
+              </p>
+            </div>
+          </a>
+          <a href="https://oneported.vercel.app/" class="project-link">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/one.jpg"
+                  alt="OnePorted Project"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">OnePorted</h2>
+              <p class="project-description">
+                OnePorted is a sleek, responsive website created as a freelance project. Developed using HTML, CSS, JavaScript, and React, it serves as a portfolio or business landing page, demonstrating my ability to deliver custom web solutions for clients.
+              </p>
+            </div>
+          </a>
+          <a href="https://www.math12.studio/" class="project-link">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/math.jpg"
+                  alt="Math12 Studio Project"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Math12 Studio</h2>
+              <p class="project-description">
+                Math12 Studio is an educational web platform aimed at students and educators. Built with modern web technologies like React, it offers tools for learning and teaching mathematics, reflecting my experience in creating user-friendly, functional websites.
+              </p>
+            </div>
+          </a>
+          <a href="https://liik.vercel.app/" class="project-link">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/liik.jpg"
+                  alt="Liik Project"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Liik</h2>
+              <p class="project-description">
+                Liik is a minimalist web application designed for simplicity and efficiency. Developed with React and deployed on Vercel, it’s a custom project that highlights my ability to craft clean, responsive interfaces for diverse client needs.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:akosya.akmaral@gmail.com">akosya.akmaral@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/aryntay/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="GitHub icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/arynttai">GitHub</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>© 2025 Akmaral Aryntai</p>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const menuLinks = document.querySelector(".menu-links");
+        menuLinks.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
